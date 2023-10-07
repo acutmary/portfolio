@@ -1,0 +1,21 @@
+body{
+	background-color:skyblue ;
+}
+table{
+	padding: 50px;
+	height: 10vh;
+	width: 200vh;
+	border: solid black 1px;
+	border-collapse: collapse;
+	flex-direction: column;
+	justify-content: center;
+	align-items: right;
+}
+th{
+	background-color: BLUE;
+	color: white;
+	text-align: left;
+}
+tr:nth-child(even){
+	background-color: lightblue;
+}
